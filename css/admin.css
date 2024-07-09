@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Sidebar Styling */
+#sidebar {
+  background: #343a40;
+  color: #fff;
+  min-height: 100vh;
+}
+
+#sidebar .nav-link {
+  color: #adb5bd;
+}
+
+#sidebar .nav-link.active {
+  background: #495057;
+  color: #fff;
+}
+
+#sidebar .nav-link:hover {
+  background: #495057;
+  color: #fff;
+}
+
+/* Main Content Styling */
+main {
+  padding: 20px;
+}
+
+main .border-bottom {
+  border-bottom: 2px solid #dee2e6 !important;
+}
+
+h1.h2,
+h2 {
+  font-weight: 300;
+}
+
+/* Table Styling */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table thead th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+  background: #f1f3f5;
+}
+
+/* Feather Icons */
+.feather {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
